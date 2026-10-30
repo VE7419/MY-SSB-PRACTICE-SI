@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My SSB Preparation</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f2f5f9;
+  color: #172b4d;
+}
+header {
+  background: #123c2b;
+  color: white;
+  text-align: center;
+  padding: 25px 10px;
+}
+header h1 { margin: 0; }
+nav {
+  background: #20563c;
+  padding: 14px;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 8px;
+  text-decoration: none;
+}
+.hero {
+  background: white;
+  margin: 18px;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+}
+.hero h2 { color: #176b45; }
+.container {
+  padding: 10px 18px;
+}
+.card {
+  background: white;
+  padding: 18px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px #ddd;
+}
+button {
+  background: #176b45;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+footer {
+  background: #123c2b;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>MY SSB PRACTICE</h1>
+<p>Your journey to becoming an officer begins here!</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#tests">Practice</a>
+<a href="#about">About</a>
+</nav>
+
+<section class="hero" id="home">
+<h2>Prepare for Your SSB Interview</h2>
+<p>Practice daily. Build confidence. Develop officer-like qualities.</p>
+<button onclick="document.getElementById('tests').scrollIntoView({behavior:'smooth'})">
+Start Practice
+</button>
+</section>
+
+<div class="container" id="tests">
+<h2>SSB Practice Sections</h2>
+
+<div class="card">
+<h3>🧠 OIR Test</h3>
+<p>Practice verbal and non-verbal reasoning questions.</p>
+<button onclick="alert('OIR practice questions coming soon!')">Start OIR</button>
+</div>
+
+<div class="card">
+<h3>🖼️ PPDT Practice</h3>
+<p>Improve your picture perception and story-writing skills.</p>
+<button onclick="alert('PPDT practice coming soon!')">Start PPDT</button>
+</div>
+
+<div class="card">
+<h3>✍️ Psychology Tests</h3>
+<p>Learn about TAT, WAT, SRT and Self Description.</p>
+<button onclick="alert('Psychology practice coming soon!')">Explore Tests</button>
+</div>
+
+<div class="card">
+<h3>🎤 Interview Preparation</h3>
+<p>Prepare for common personal interview questions.</p>
+<button onclick="alert('Interview practice coming soon!')">Start Interview</button>
+</div>
+
+<div class="card" id="about">
+<h3>About This Website</h3>
+<p>A free learning project to help aspirants practise for the Services Selection Board (SSB) interview.</p>
+</div>
+</div>
+
+<footer>
+<p>MY SSB PRACTICE</p>
+<p>Learn • Practise • Improve</p>
+</footer>
+
+</body>
+</html>
